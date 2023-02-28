@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<h1>Bus Schedule</h1>
+<table border="5" cellspacing="0" align="center">
+
+    <tr>
+        <td align="center" height="50"
+            width="100"><br>
+            <b>Day</b></br>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b>I<br>9:30-10:20</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b>II<br>10:20-11:10</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b>III<br>11:10-12:00</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b>12:00-12:40</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b>IV<br>12:40-1:30</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b>V<br>1:30-2:20</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b>VI<br>2:20-3:10</b>
+        </td>
+        <td align="center" height="50"
+            width="100">
+            <b>VII<br>3:10-4:00</b>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" height="50">
+            <b>Monday</b></td>
+        <td align="center" height="50">Oakville GO</td>
+        <td align="center" height="50">Sheridan College</td>
+        <td align="center" height="50">Trafalgar & Upper Middle</td>
+        <td align="center" height="50">Uptown Core</td>
+<!--        <td rowspan="6" align="center" height="50">-->
+<!--            <h2>L<br>U<br>N<br>C<br>H</h2>-->
+<!--        </td>-->
+        <td colspan="3" align="center"
+            height="50">Speers & Kerr</td>
+        <td align="center" height="50">OFF</td>
+    </tr>
+    <tr>
+        <td align="center" height="50">
+            <b>Tuesday</b>
+        </td>
+        <td colspan="3" align="center"
+            height="50">Lakeshore
+        </td>
+        <td align="center" height="50">Appleby GO</td>
+        <td align="center" height="50">Harvester & Appleby</td>
+        <td align="center" height="50">Harvester & Burloak</td>
+        <td align="center" height="50">South Oakville Centre (Arrive)</td>
+    </tr>
+    <tr>
+        <td align="center" height="50">
+            <b>Wednesday</b>
+        </td>
+        <td align="center" height="50">Rebecca & Kerr</td>
+        <td align="center" height="50">Church & Dunn</td>
+        <td align="center" height="50">Bond & Kerr</td>
+        <td align="center" height="50">Bond & Kerr</td>
+        <td colspan="3" align="center"
+            height="50">Uptown Core
+        </td>
+    </tr>
+    <tr>
+        <td align="center" height="50">
+            <b>Thursday</b>
+        </td>
+        <td align="center" height="50">Oakville GO</td>
+        <td align="center" height="50">Iroquois Shore Rd</td>
+        <td align="center" height="50">White Oaks</td>
+        <td colspan="3" align="center"
+            height="50">Downtown
+        </td>
+        <td align="center" height="50">Walmart</td>
+    </tr>
+    <tr>
+        <td align="center" height="50">
+            <b>Friday</b>
+        </td>
+        <td colspan="3" align="center"
+            height="50">Lakeshore
+        </td>
+        <td align="center" height="50">South Oakville Centre (Depart)</td>
+        <td align="center" height="50">Bronte GO</td>
+        <td align="center" height="50">Third Line & Upper Middle</td>
+        <td align="center" height="50">Hospital</td>
+    </tr>
+    <tr>
+        <td align="center" height="50">
+            <b>Saturday</b>
+        </td>
+        <td align="center" height="50">Oakville GO</td>
+        <td align="center" height="50">Sheridan
+            College</td>
+        <td align="center" height="50">Uptown Core</td>
+        <td colspan="3" align="center"
+            height="50">Trafalgar / 407 GO Carpool(Arr.)
+        </td>
+        <td align="center" height="50">Trafalgar / 407 GO Carpool(Dep.)
+        </td>
+    </tr>
+</table>
+<form method="get" action="#" th:action="@{/}">
+
+    <input type="submit" value="Main Home" />
+</form>
+<form method="get" action="#" th:action="@{/trainticket}">
+
+    <input type="submit" value="Bus Detail" />
+</form>
+
+</body>
+
+</html>
